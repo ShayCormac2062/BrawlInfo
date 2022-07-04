@@ -8,6 +8,7 @@ import com.example.brawlinfo.presentation.fragment.AllBrawlersFragment
 
 class MainActivity : AppCompatActivity() {
 
+
     private var binding: ActivityMainBinding? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
