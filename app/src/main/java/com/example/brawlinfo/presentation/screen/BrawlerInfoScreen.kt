@@ -30,8 +30,7 @@ var color = Primary
 fun BrawlerInfoScreen(
     mainViewModel: BrawlViewModel
 ) {
-    var brawler = mainViewModel.brawlerById.value
-
+    val brawler = mainViewModel.brawlerById.value
     if (brawler == null) {
         LoadingProgressBar()
     } else {
@@ -224,7 +223,6 @@ fun Perk(
     }
 }
 
-//TODO
 @Composable
 fun VideoPlayerScreen() {
     val context = LocalContext.current
